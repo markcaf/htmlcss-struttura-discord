@@ -63,7 +63,7 @@ header{
     align-items: center;
 }
 
-.middle-element{
+.section-1 .middle-element{
     background-color: #EE82EE;
     height: 300px;
     width: 800px;
@@ -157,3 +157,19 @@ header{
     border: 3px dotted black;
 }
 /* Fine della quarta sezione */
+
+/* Style della quinta sezione */
+.section-5{
+    background-color: #D3D3D3;
+    height: 800px;
+    margin: 0 auto;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.section-5 .middle-element{
+    background-color: #228B22;
+    height: 700px;
+    border: 3px dotted black;
+}
