@@ -4,3 +4,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Arial', sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 10px;
+    background-color: #ADD8E6;
+}
+
+.head-content{
+    display: flex;
+    justify-content: space-between;
+    background-color: #DAA520;
+}
+
+.menu{
+    display: inline-block;
+    border: 2px dotted black;
+    flex-grow: 3;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px dotted black;
+}
+
+.login{
+    flex-grow: 1;
+    padding: 10px;
+    text-align: right;
+    border: 2px dotted black;
+}
