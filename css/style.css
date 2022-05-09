@@ -34,18 +34,18 @@ header{
     text-align: center;
 }
 
-.menu a{
+.head-content .menu a{
     text-decoration: none;
     color: black;
 }
 
-.logo{
+.head-content .logo{
     flex-grow: 1;
     padding: 10px;
     border: 2px dotted black;
 }
 
-.login{
+.head-content .login{
     flex-grow: 1;
     padding: 10px;
     text-align: right;
@@ -173,3 +173,85 @@ header{
     height: 700px;
     border: 3px dotted black;
 }
+/* Fine della quinta sezione */
+
+/* Style della terza sezione */
+.section-6{
+    background-color: #23272A;
+    height: 440px;
+    margin: 0 auto;
+}
+
+.section-6 .container{
+    display: flex; 
+    justify-content: center;
+    align-items: flex-start;
+    height: inherit;
+    padding-top: 10px;
+}
+
+.section-6 .container .col-sx{
+    background-color: #F08080;
+    height: 400px;
+    flex-grow: 2;
+    border: 3px dotted black;
+}
+
+.section-6 .container .col-dx-1{
+    background-color: #20B2AA;
+    height: 400px;
+    flex-grow: 1;
+    border: 3px dotted black;
+}
+
+.section-6 .container .col-dx-2{
+    background-color: #20B2AA;
+    height: 400px;
+    flex-grow: 1;
+    border: 3px dotted black;
+}
+
+.section-6 .container .col-dx-3{
+    background-color: #20B2AA;
+    height: 400px;
+    flex-grow: 1;
+    border: 3px dotted black;
+}
+
+.section-6 .container .col-dx-4{
+    background-color: #20B2AA;
+    height: 400px;
+    flex-grow: 1;
+    border: 3px dotted black;
+}
+/* Fine della sesta sezione */
+
+/* Style per footer e contenuto */
+footer{
+    padding-top: 20px;
+    margin-top: 1px;
+    background-color: #23272A;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #7fffd4;
+    padding: 20px 0;
+}
+
+.footer-content .logo{
+    align-self: center;
+    background-color: #FFC0CB;
+    padding: 5px 10px;
+    border: 3px dotted black;
+}
+
+.footer-content .bottone{
+    align-self: center;
+    background-color: #FFC0CB;
+    padding: 5px 10px;
+    border: 3px dotted black;
+}
+/* Fine del footer */
