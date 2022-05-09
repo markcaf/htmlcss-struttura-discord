@@ -128,3 +128,32 @@ header{
     border: 3px dotted black;
 }
 /* Fine della terza sezione */
+
+/* Style della quarta sezione */
+.section-4{
+    background-color: #FFFFFF;
+    height: 480px;
+    margin: 0 auto;
+}
+
+.section-4 .container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.section-4 .container .col-sx{
+    background-color: #1E90FF;
+    height: 380px;
+    width: 60%;
+    border: 3px dotted black;
+}
+
+.section-4 .container .col-dx{
+    background-color: #FFC0CB;
+    height: 380px;
+    width: 40%;
+    border: 3px dotted black;
+}
+/* Fine della quarta sezione */
